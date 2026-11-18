@@ -1,0 +1,7 @@
+# PyTorch 建议单独装 CPU 版，更稳：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformers
+sentencepiece
+sacremoses
+certifi

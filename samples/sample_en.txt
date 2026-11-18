@@ -1,0 +1,10 @@
+Machine translation has changed a great deal in the past decade. Early systems relied on
+hand-written rules and statistical alignments, which often produced fluent-looking sentences
+with the wrong meaning. The Transformer architecture, introduced in 2017, replaced recurrence
+with self-attention, allowing every word to look at every other word at once. This made training
+faster and translation quality noticeably better.
+
+Today most translation systems are built on this idea. A model is trained on millions of
+parallel sentence pairs, and at inference time it produces the target sentence one token at a
+time. Because the whole process runs on matrix multiplications, it works well on GPUs and,
+for small models, even on a laptop CPU.
